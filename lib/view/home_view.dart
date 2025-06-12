@@ -6,9 +6,8 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.pinkAccent,
-      child: CalculatorView(),
+      return const MaterialApp(
+      home: CalculatorView(),
     );
   }
 }
