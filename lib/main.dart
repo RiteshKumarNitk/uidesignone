@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:uidesignone/app/app.dart';
-import 'package:uidesignone/view/home_view.dart';
 
 void main() {
- runApp(const MyApp());
+  runApp(const MyApp());
 }
+
 
 // void main() => runApp(MyApp());
 
